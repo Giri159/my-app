@@ -1,3 +1,4 @@
-FROM tomcat:8
-# Take the war and copy to webapps of tomcat
+FROM tomcat:9
+RUN mv webapps webappdgfghfg
+RUN mv webapps.dist webapps
 COPY target/newapp.war /usr/local/tomcat/webapps/
