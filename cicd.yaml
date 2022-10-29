@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
         - name: tomcat
-          image: giridaran/newapp
+          image: giridaran/newapp:latest
           ports:
           - containerPort: 8080
 
